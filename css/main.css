@@ -1,102 +1,43 @@
-[class*="col-"] {
-	min-height: 7px;
-	padding: 0 14px;
-	float: left;
-}
-.col-3 {
-	/* (3 / 12) x 100 */
-	width: 25%;
-}
-body{
-    position: relative;
+/*-------------------HEADER--LOGO------------*/
+header {
+    background-image:url(../img/grupal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    height: 600px;
     text-align: center;
 }
+header img{
+    width: 350px;
+    margin: 50px 0px 0px 90px;
+}
+header button{
+    background: #fcb924;
+    padding: 7px 20px ;
+    border-radius: 7px;
+    font-size: 20px;
+    border: none;
+}
 header a{
-text-decoration: none;  
-}
-.grupo img{
-    
-   width:1300px;
-    
-}
-.col-3 img{
-  width: 120%; 
- margin: 15px;
-}
-
-/*---la cabesera--------*/
-
-}
- a{
-    position: relative;
-     color: black:  
-}
-.cabesa {
-    position: relative;
-    bottom: 51em;
-    left: 190px;
-}
-.cabesa img{
-    position: relative;
-    left: 80px;
-    width: 500px;
-}
-.cabesa a{
-    position: relative;
-    bottom: 90px;
-    margin: 15px;
-    right: 50px;
+  text-decoration: none; 
     font-size: 20px;
     color: black;
 }
-button{
-    position: relative;
-    right: 55em;
-    bottom: 30px;
-    width: 120px;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: orange;  
-}
-.col- img{
-    position: relative;
-    width: 340px;
-    height: 250px;
-    left: 50px;
-    
-}
-.yo img{
-    position: relative;
-    bottom: 90px;
-}
-.tu img{
-    position: relative;
-    bottom: 90px;
-    margin-left: 50px;
-}
 
-.el img{
-    position: relative;
-    bottom: 90px;
-    margin-left: 90px;
+section ul li img {
+    width: 350px;
 }
-.col- b{
-    position: relative;
-    bottom:5em;
-    left: 4em;
-    font-size: 20px
-    
+section ul li  {
+    margin: 20px 5px;
+}
+section p {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0;
 }
 footer{
-    position:relative;
-    height: 60px;
-    background-color: black;
-    top: 20em; 
-}
-.no{
- height: 20px ; 
-    color:white;
-     margin-left: 50px;
-    position: absolute;
-    
+    background: #3b3838;
+    padding: 20px 0px;
+    font-size: 18px;
+    color: white;
 }
